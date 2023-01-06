@@ -15,6 +15,8 @@ html{
   border-width: 1px;
   border-style: solid;
   border-color: #cfcfcf;
+  border-left-style: none;
+  border-right-style: none;
 }
 
 .row-container{
@@ -49,11 +51,12 @@ html{
 .btn{
   background:none;
   border:none;
-  margin: 0.3em;
+  margin: 0.5em;
+  padding: 0;
  }
 
  .title{
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 700;
   padding: 1em;
   color: rgb(66, 66, 66);
@@ -71,6 +74,8 @@ html{
     padding-left: 1em;
     color: #525252;
     background-color: rgb(243, 243, 243);
+    margin-right: 0.5em;
+
  }
 
  .user{
@@ -78,6 +83,7 @@ html{
   display: flex;
   align-items: center;
   justify-content: center;
+  
  }
 
  .bold{
