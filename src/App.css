@@ -11,7 +11,10 @@ html{
   flex-direction: column;
   align-items: center;
   background-color: white;
-  padding: 1em;
+  padding: 2em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cfcfcf;
 }
 
 .row-container{
@@ -57,12 +60,26 @@ html{
  }
 
  .userName{
-  border-radius: 1em;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #131313;
-  text-align: center;
-  height: 100px;
-  padding-right: 1em;
-  padding-left: 1em;
+    border-radius: 1em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c4c4c4;
+    text-align: center;
+    height: 100px;
+    width: 220px;
+    padding-right: 1em;
+    padding-left: 1em;
+    color: #525252;
+    background-color: rgb(243, 243, 243);
+ }
+
+ .user{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .bold{
+  font-weight: 700;
  }
