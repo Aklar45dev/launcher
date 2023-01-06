@@ -43,10 +43,10 @@ function Row(props) {
   return (
     <div className="row-container">
         <div className='userName'>{props.data.id}</div>
-        <button title="Dream" onClick={() => update("Dream")} className='btn'><img id={props.data.id+"Dream"} alt="" className='image' src="./image1.jpg"></img></button>
-        <button title="Imagine" onClick={() => update("Imagine")} className='btn'><img id={props.data.id+"Imagine"} alt="" className='image' src="./image2.jpg"></img></button>
-        <button title="Inspire" onClick={() => update("Inspire")} className='btn'><img id={props.data.id+"Inspire"} alt="" className='image' src="./image3.jpg"></img></button>
-        <button title="Dream Eye" onClick={() => update("DreamEye")} className='btn'><img id={props.data.id+"DreamEye"} alt="" className='image' src="./image4.jpg"></img></button>
+        <button title="Dream" onClick={() => update("Dream")} className='btn'><img id={props.data.id+"Dream"} alt="" className='image' src="./Image1.jpg"></img></button>
+        <button title="Imagine" onClick={() => update("Imagine")} className='btn'><img id={props.data.id+"Imagine"} alt="" className='image' src="./Image2.jpg"></img></button>
+        <button title="Inspire" onClick={() => update("Inspire")} className='btn'><img id={props.data.id+"Inspire"} alt="" className='image' src="./Image3.jpg"></img></button>
+        <button title="Dream Eye" onClick={() => update("DreamEye")} className='btn'><img id={props.data.id+"DreamEye"} alt="" className='image' src="./Image4.jpg"></img></button>
     </div>
   )
 }
