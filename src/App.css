@@ -48,6 +48,21 @@ html{
   opacity: 1;
 }
 
+.delete{
+  width: 20px;
+  margin-left: 1em
+}
+
+.delete:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.delete:active{
+  cursor: pointer;
+  opacity: 1;
+}
+
 .btn{
   background:none;
   border:none;
@@ -75,7 +90,6 @@ html{
     color: #525252;
     background-color: rgb(243, 243, 243);
     margin-right: 0.5em;
-
  }
 
  .user{
@@ -83,9 +97,37 @@ html{
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  text-align: initial;
+  line-height: 0.7em;
  }
 
  .bold{
   font-weight: 700;
+ }
+
+ .PopUpContainer{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  transform: translateY(0%);
+  z-index: 10;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+ .prompt-text {
+  margin-bottom: 1em;
+ }
+
+ .prompt-btn{
+  padding: 1em;
+  margin: 0.25em;
+  border-radius: 0.5em;
+  border-width: 1px;
+ }
+
+ .prompt-btn:hover{
+  cursor: pointer;
  }
