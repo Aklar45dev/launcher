@@ -44,7 +44,7 @@ function Row(props) {
   return (
     <div className="row-container" id={props.data.id}>
         <div className='userName' >
-            <div className='user'>User:&nbsp;{props.data.id}<br/><br/>Location:&nbsp;</div>
+            <div className='user'>Id:&nbsp;{props.data.id}<br/><br/>Emplacement:&nbsp;</div>
         </div>
         <button title="Dream" onClick={() => update("Dream")} className='btn'><img id={props.data.id+"Dream"} alt="" className='image' src="./Image1.jpg"></img></button>
         <button title="Imagine" onClick={() => update("Imagine")} className='btn'><img id={props.data.id+"Imagine"} alt="" className='image' src="./Image2.jpg"></img></button>

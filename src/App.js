@@ -52,7 +52,7 @@ function App() {
         </div>
         
       </div>
-      <div className='title'>Launcher Manager</div>
+      <div className='title'>Gestionnaire de licence</div>
       <div className="main-container">
         {users && users.map(user => {
           return(
