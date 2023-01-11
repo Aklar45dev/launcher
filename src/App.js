@@ -50,7 +50,6 @@ function App() {
           <button onClick={() => deleteUser()} className='prompt-btn'>Ok</button>
           <button onClick={() => hidepopup()} className='prompt-btn'>Annuler</button>
         </div>
-        
       </div>
       <div className='title'>Gestionnaire de licence</div>
       <div className="main-container">
