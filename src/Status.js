@@ -22,7 +22,7 @@ function Status() {
     setStatus(false)
   }
 
-  return <div>{status ? <div><button onClick={logoutStatus}>Logout</button><Content/></div> : <Login/>}</div>
+  return <div>{status ? <div><button className='inputLogout' onClick={logoutStatus}>Quitter</button><Content/></div> : <Login/>}</div>
 
 }
 
