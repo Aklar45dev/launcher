@@ -74,6 +74,7 @@ html{
   font-size: 2.5em;
   font-weight: 700;
   padding: 1em;
+  padding-top: 0.75em;
   color: rgb(66, 66, 66);
   text-align: center;
  }
@@ -131,7 +132,7 @@ html{
   border-style: solid;
   border-color: #adadad;
   border-radius: 2em;
-  padding: 1em;
+  padding: 1.2em;
   background-color: white;
   margin: 2em;
   font-size: 1em;
